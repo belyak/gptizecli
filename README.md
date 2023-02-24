@@ -2,33 +2,21 @@ python-package-boilerplate
 ==========================
 
 [![Build Status](https://travis-ci.org/mtchavez/python-package-boilerplate.png?branch=master)](https://travis-ci.org/mtchavez/python-package-boilerplate)
-[![Requires.io](https://requires.io/github/mtchavez/python-package-boilerplate/requirements.svg?branch=master)](https://requires.io/github/mtchavez/python-package-boilerplate/requirements?branch=master)
 
-Boilerplate for a Python Package
+CLI tool to use ChatGPT API.
 
-## Package
+## Installation
 
-Basic structure of package is
 
-```
-├── README.md
-├── packagename
-│   ├── __init__.py
-│   ├── packagename.py
-│   └── version.py
-├── pytest.ini
-├── requirements.txt
-├── setup.py
-└── tests
-    ├── __init__.py
-    ├── helpers
-    │   ├── __init__.py
-    │   └── my_helper.py
-    ├── tests_helper.py
-    └── unit
-        ├── __init__.py
-        ├── test_example.py
-        └── test_version.py
+## Usage
+
+```shell
+(gptizecli) $ gptizecli/gptizecli.py save-api-key YOUR-API-KEY
+(gptizecli) $ gptizecli/gptizecli.py prompt "What is the distance between Moscow and Saint-Petersburg, Russia?"
+The distance between Moscow and Saint-Petersburg, Russia is approximately 645 kilometers (401 miles).
+(gptizecli) $ gptizecli/gptizecli.py prompt --echo "What is the distance between Moscow and Saint-Petersburg, Russia?"
+What is the distance between Moscow and Saint-Petersburg, Russia?
+The distance between Moscow and Saint-Petersburg, Russia is approximately 645 kilometers (401 miles). 
 ```
 
 ## Requirements
