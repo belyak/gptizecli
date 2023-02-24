@@ -52,7 +52,7 @@ def prompt(prompt, echo, model, temperature, max_tokens, config):
         response = openai.Completion.create(
             model=model,
             prompt=prompt,
-            temperature=0.1,
+            temperature=temperature,
             max_tokens=max_tokens,
             top_p=1,
             frequency_penalty=0.0,
