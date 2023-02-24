@@ -1,7 +1,5 @@
-python-package-boilerplate
+GPTize CLI tool
 ==========================
-
-[![Build Status](https://travis-ci.org/mtchavez/python-package-boilerplate.png?branch=master)](https://travis-ci.org/mtchavez/python-package-boilerplate)
 
 CLI tool to use ChatGPT API.
 
