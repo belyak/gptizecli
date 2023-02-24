@@ -5,8 +5,9 @@ CLI tool to use ChatGPT API.
 
 ## Installation
 
+```shell
 pip install git+https://github.com/belyak/gptizecli.git@master
-
+````
 ## Usage
 
 Install your API key:
