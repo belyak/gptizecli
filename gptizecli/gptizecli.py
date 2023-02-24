@@ -21,7 +21,7 @@ def cli():
 @cli.command()
 @click.argument('prompt',
                 type=str)
-@click.option('--echo', is_flag=True, default=True)
+@click.option('--echo', is_flag=True, default=False)
 @click.option('--model',
               default='text-davinci-003',
               help='GPT-3 model to use')
